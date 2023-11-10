@@ -13,7 +13,7 @@ services:
       context: .
     environment:
       NODE_ENV: production
-      REDIS_URL: rediss://default:1e72c26800b94a859d37c47246a7c19b@gusc1-hip-satyr-30240.upstash.io:30240
+      REDIS_URL: r
     ports:
       - 3000:3000
 
